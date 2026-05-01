@@ -3,3 +3,35 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  background-color: #60a1e1;
+}
+
+.container {
+  height: 100vh;
+}
+
+form {
+  background-color: #f2f2f2;
+  height: auto;
+}
+
+/* 
+CORES:
+
+backgroud - #60A1E1
+calculadora - #F2F2F2
+display - #A0A156
+texto e teclas - #FFFFFF (white)
+
+TECLAS:
+
+    normais - #85ADA6
+    números e igual - #A0A156
+    operadores - #7B5C7A
+
+HOVER:
+
+
+*/
