@@ -80,12 +80,21 @@ form {
 
 .key {
   color: white;
+  font-weight: 300;
+  font-size: 20px;
   background-color: #85ada6;
   border: none;
   border-radius: 8px;
   width: 67.2px;
   height: 42px;
   cursor: pointer;
+}
+
+.numbers {
+  background-color: #a0a156;
+}
+.maths {
+  background-color: #7b5c7a;
 }
 
 /* 
