@@ -8,4 +8,5 @@ function calculate() {
     if (calculateOperation) {
         operations.value = eval(calculateOperation.value)
     }
+    
 }
