@@ -24,7 +24,7 @@
           </div>
           <div class="keyboard">
              <!-- primeira linha de teclas -->
-              <input type="button" class="key" value="C" />
+              <input type="button" class="key" value="C" onclick="operations.value = '' "/>
               <button class="key delete">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -38,37 +38,37 @@
                   />
                 </svg>
               </button>
-              <input type="button" class="key" value="(" />
-              <input type="button" class="key" value=")" />
-              <input type="button" class="key" value="%" />
+              <input type="button" class="key" value="(" onclick="operations.value += '(' "/>
+              <input type="button" class="key" value=")" onclick="operations.value += ')' "/>
+              <input type="button" class="key" value="%" onclick="operations.value += '%' "/>
             
               <!-- segunda linha de teclas -->
-              <input type="button" class="key numbers" value="7" />
-              <input type="button" class="key numbers" value="8" />
-              <input type="button" class="key numbers" value="9" />
-              <input type="button" class="key maths" value="÷" />
-              <input type="button" class="key" value="√" />
+              <input type="button" class="key numbers" value="7" onclick="operations.value += '7' "/>
+              <input type="button" class="key numbers" value="8" onclick="operations.value += '8' "/>
+              <input type="button" class="key numbers" value="9" onclick="operations.value += '9' "/>
+              <input type="button" class="key maths" value="÷" onclick="operations.value += '/' "/>
+              <input type="button" class="key" value="√" onclick="operations.value += 'Math.sqrt()' "/>
            
               <!-- terceira linha de teclas -->
-              <input type="button" class="key numbers" value="4" />
-              <input type="button" class="key numbers" value="5" />
-              <input type="button" class="key numbers" value="6" />
-              <input type="button" class="key maths" value="x" />
-              <input type="button" class="key" value="x²" />
+              <input type="button" class="key numbers" value="4" onclick="operations.value += '4' "/>
+              <input type="button" class="key numbers" value="5" onclick="operations.value += '5' "/>
+              <input type="button" class="key numbers" value="6" onclick="operations.value += '6' "/>
+              <input type="button" class="key maths" value="x" onclick="operations.value += '*' "/>
+              <input type="button" class="key" value="x²" onclick="operations.value += '**2' "/>
            
               <!-- quarta linha de teclas -->
-              <input type="button" class="key numbers" value="1" />
-              <input type="button" class="key numbers" value="2" />
-              <input type="button" class="key numbers" value="3" />
-              <input type="button" class="key maths" value="-" />
+              <input type="button" class="key numbers" value="1" onclick="operations.value += '1' "/>
+              <input type="button" class="key numbers" value="2" onclick="operations.value += '2' "/>
+              <input type="button" class="key numbers" value="3" onclick="operations.value += '3' "/>
+              <input type="button" class="key maths" value="-" onclick="operations.value += '-' "/>
               <input type="button" class="key equal" value="=" />
               <!-- botão igual -->
          
               <!-- quinta linha de teclas -->
-              <input type="button" class="key" value="." />
-              <input type="button" class="key numbers" value="0" />
-              <input type="button" class="key" value="00" />
-              <input type="button" class="key maths" value="+" />
+              <input type="button" class="key" value="." onclick="operations.value += '.' "/>
+              <input type="button" class="key numbers" value="0" onclick="operations.value += '0' "/>
+              <input type="button" class="key" value="00" onclick="operations.value += '00' "/>
+              <input type="button" class="key maths" value="+" onclick="operations.value += '+' "/>
             </div>
           </div>
         </div>
