@@ -67,16 +67,26 @@ footer {
 
 form {
   height: auto;
-  margin: 12px;
 }
 
 .keyboard {
-  padding: 12px 0px;
+  padding: 2px 0px 0px 0px;
   align-items: center;
   justify-content: center;
 }
+.row {
+  margin-top: 10px;
+}
 
-
+.key {
+  color: white;
+  background-color: #85ada6;
+  border: none;
+  border-radius: 8px;
+  width: 67.2px;
+  height: 42px;
+  cursor: pointer;
+}
 
 /* 
 CORES:
