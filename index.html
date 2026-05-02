@@ -13,19 +13,19 @@
     </header>
 
     <div class="container">
-      <form>
+      <div class="calculator_container">
         <div class="calculator">
           <!-- corpo da calculadora -->
           <div class="display">
             <input type="text" id="operations" />
             <!-- todas as operações -->
-            <input type="text" id="result" fasd />
+            <input type="text" id="result" />
             <!-- resultado final -->
           </div>
           <div class="keyboard">
              <!-- primeira linha de teclas -->
               <input type="button" class="key" value="C" onclick="operations.value = '' "/>
-              <button class="key delete">
+              <button class="key delete" onclick="back()">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="34"
@@ -71,8 +71,8 @@
               <input type="button" class="key maths" value="+" onclick="operations.value += '+' "/>
             </div>
           </div>
-        </div>
-      </form>
+      </div>
+    </div>
     </div>
 
     <footer>
