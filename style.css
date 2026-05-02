@@ -3,6 +3,8 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  box-sizing: border-box;
+  /* limita o padding para não ultrapassar o conteúdo "pai" */
 }
 
 body {
@@ -37,11 +39,19 @@ footer {
 
 .display {
   margin: 0px;
+  width: 100%;
+}
+
+.display input {
+  padding: 20px;
+  justify-content: center;
 }
 
 #operations {
   /* display com operações */
   display: block;
+  height: 80px;
+  width: 100%;
   background-color: #a0a156;
   border: none;
   color: white;
@@ -51,6 +61,8 @@ footer {
 #result {
   /* display com resultado final */
   display: block;
+  height: 40px;
+  width: 100%;
   background-color: #a0a156;
   border: none;
   color: white;
