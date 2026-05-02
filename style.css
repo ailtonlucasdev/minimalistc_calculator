@@ -70,6 +70,12 @@ form {
   margin: 12px;
 }
 
+.keyboard {
+  padding: 12px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 /* 
