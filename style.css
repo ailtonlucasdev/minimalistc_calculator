@@ -102,11 +102,27 @@ footer {
   cursor: pointer;
 }
 
+.key:hover {
+  background-color: #5c7973;
+  transition: 0.25s;
+}
+
 .numbers {
   background-color: #a0a156;
 }
+
+.numbers:hover {
+  background-color: #63731c;
+  transition: 0.25s;
+}
+
 .maths {
   background-color: #7b5c7a;
+}
+
+.maths:hover {
+  background-color: #603e74;
+  transition: 0.25s;
 }
 
 .key.delete {
@@ -136,5 +152,8 @@ TECLAS:
 
 HOVER:
 
+    normais - #5C7973
+    números e igual - #63731C
+    operadores - #5B2C2C
 
 */
