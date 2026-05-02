@@ -36,8 +36,25 @@ footer {
 }
 
 .display {
+  margin: 0px;
+}
+
+#operations {
+  /* display com operações */
+  display: block;
   background-color: #a0a156;
-  padding: 20px;
+  border: none;
+  color: white;
+  border-radius: 12px 12px 0px 0px;
+}
+
+#result {
+  /* display com resultado final */
+  display: block;
+  background-color: #a0a156;
+  border: none;
+  color: white;
+  border-radius: 0px 0px 12px 12px;
 }
 
 .calculator {
@@ -50,7 +67,10 @@ footer {
 
 form {
   height: auto;
+  margin: 12px;
 }
+
+
 
 /* 
 CORES:
